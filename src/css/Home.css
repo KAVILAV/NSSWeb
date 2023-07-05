@@ -1,0 +1,205 @@
+.nav-link {
+    
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+#collapse{
+    margin-left: 100px;
+}  
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.promo-title{
+    color: white;
+}
+.navbar-brand img
+{
+   height: 40px;
+   padding-left: 20px; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight:600 ;
+    float: right;
+    text-align: left;
+}
+fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/* ---- banner section ----- */
+.img-fluid{
+    border-radius: 350px;
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+    color: white;
+    padding-top: 5% ;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+/* ---- services section ----- */
+
+#services{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top:20px;
+
+}
+.services{
+    padding: 20px;
+
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block; 
+    transform: translateY(8px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+
+}
+.ns{
+    color: white;
+    font-size: 40px;
+    font-weight: 600px;
+}
+/*-------------- about us ---------*/
+#suggestion{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#suggestion .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+
+}
+.suggestion-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#suggestion ul li
+{
+   margin: 10px 0;
+}
+#suggestion ul{
+    margin-left: 20px;
+}
+
+/*------------- footer section ------------*/
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+    color: white;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px ;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782) ;
+
+}
+hr{
+    background-color: white;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
